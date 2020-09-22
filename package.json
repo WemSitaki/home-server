@@ -1,0 +1,26 @@
+{
+  "name": "shome_backend",
+  "version": "1.0.0",
+  "description": "Home smart control server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miroslav Skala",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^1.4.0",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.7.0",
+    "graphql-playground": "^1.3.17",
+    "graphql-playground-middleware-express": "^1.7.20",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.5",
+    "serialport": "^9.0.1"
+  }
+}
