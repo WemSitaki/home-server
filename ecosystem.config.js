@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-        name: 'skala_home',
+        name: 'home-server',
         script: 'build/app.js',
         env: {
             "COMMON_VARIABLE": "true"
