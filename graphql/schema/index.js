@@ -5,7 +5,7 @@ module.exports = buildSchema(`
 type SerialDevice {
   port: String
   address: Int
-  manufacturer: String
+  title: String
 }
 
 type RootQuery {
