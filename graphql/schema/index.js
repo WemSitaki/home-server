@@ -2,13 +2,14 @@ const { buildSchema } = require('graphql');
 
 module.exports = buildSchema(`
 
-type SerialPort {
-  path: String
+type SerialDevice {
+  port: String
+  address: Int
   manufacturer: String
 }
 
 type RootQuery {
-    serialPorts: [SerialPort]
+    serialDevices: [SerialDevice]
 }
 
 schema {

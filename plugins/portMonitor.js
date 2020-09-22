@@ -6,8 +6,7 @@
 const SerialPort = require('serialport')
 const bindings = require('@serialport/bindings')
 const Readline = require('@serialport/parser-readline')
-const Device = require('../models/devices');
-var mongoose = require('mongoose');
+const Device = require('../models/device');
 
 var listOfPorts = [];
 var ports = [];

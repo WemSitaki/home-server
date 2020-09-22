@@ -1,7 +1,7 @@
-const serialResolver = require('./serial');
+const devicesResolver = require('./devices');
 
 const rootResolver = {
-  ...serialResolver,
+  ...devicesResolver,
 };
 
 module.exports = rootResolver;

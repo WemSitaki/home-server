@@ -1,11 +1,13 @@
-const transformPort = product => {
+const transformDevice = device => {
   return {
-    manufacturer: product.manufacturer,
-    path: product.path
+    ...device._doc,
+    title: device.title,
+    port: device.port,
+    address: device.address,
   };
 };
 
-exports.transformPort = transformPort;
+exports.transformDevice = transformDevice;
 
 // exports.user = user;
 // exports.events = events;
